@@ -2,11 +2,20 @@
 
 The code in this repository exposes the following endpoints on port 5000
 
-/add    - add an entry to the existing list json of employess
+**/add   - add an entry to the existing list json of employess:** 
+#### Request-type: POST, Body: List of JSON
 
-/json   - Returns the list of employees as a JSON string 
+![image info](./images/add.png)
 
-/xml    - Returns list of employees in XML format 
+**/json   - Returns the list of employees as a JSON string** 
+#### Request-type: GET
+
+![image info](./images/json.png)
+
+**/xml    - Returns list of employees in XML format** 
+#### Request-type: GET
+
+![image info](./images/xml.png)
 
 
 ### main.py
